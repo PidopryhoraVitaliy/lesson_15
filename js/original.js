@@ -37,6 +37,8 @@ do {
 	const   lastFilm = prompt('Один из последних просмотренных фильмов?', ''),
             ratingFilm = prompt('На сколько оцените его?', '');
 	
+	if (lastFilm == null || ratingFilm == null)
+		continue;
 	if (lastFilm.length == 0 || ratingFilm.length == 0)
 		continue;
 	if (lastFilm.length > 50)
