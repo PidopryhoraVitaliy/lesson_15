@@ -50,6 +50,7 @@ do {
 } while (countOfAnswers < numberOfQuestions)
 
 console.log('personalMovieDB: ', personalMovieDB);
+console.log(`personalMovieDB.count: ${personalMovieDB.count}`);
 
 if (personalMovieDB.count < 10) {
 	console.log('Просмотрено довольно мало фильмов');
